@@ -9,6 +9,7 @@ heart.addEventListener("click", function () {
     }
 });
 
+
 let accountNav = document.querySelector(".account-name");
 accountNav.addEventListener("click", function () {
     window.location.href = "account.html";
