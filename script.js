@@ -9,29 +9,7 @@ heart.addEventListener("click", function () {
     }
 });
 
-// Get references to the HTML elements
-const commentInput = document.getElementById('comment-input');
-const submitButton = document.getElementById('submit-comment');
-const commentsDisplay = document.getElementById('comments-display');
 
-// Add event listener to the submit button
-submitButton.addEventListener('click', function() {
-  // Get the comment text
-  const commentText = commentInput.value.trim();
-  
-  // Check if the comment is not empty
-  if (commentText !== '') {
-    // Create a new paragraph element for the comment
-    const commentElement = document.createElement('p');
-    commentElement.textContent = commentText;
-    
-    // Add the new comment to the display area
-    commentsDisplay.appendChild(commentElement);
-    
-    // Clear the input field
-    commentInput.value = '';
-  }
-});
 
 
 
